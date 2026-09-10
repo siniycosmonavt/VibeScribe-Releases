@@ -12,7 +12,7 @@
 - Встроенная проверка обновлений. Скачивание и перезапуск — по вашему выбору.
 - История диктовок включается по желанию. Аудио и тексты не загружаются в сеть.
 
-Лёгкий установщик — около 90 МБ. После запуска откройте настройки и скачайте модель: Turbo Q5 (RU/EN, 574 МБ), Small Q5 (RU/EN, 190 МБ) или Base English (EN, 148 МБ), затем нажмите «Использовать». Дополнительная CUDA — 675 МБ. Полный [offline-комплект](https://github.com/siniycosmonavt/VibeScribe-Releases/releases/latest/download/VibeScribe-win-Offline.zip) включает все модели и CUDA. Для установки и подготовки обновлений оставьте несколько гигабайт свободного места. На новом компьютере может потребоваться Microsoft Visual C++ Runtime x64; установщик предложит его установку. Для portable-версии используйте ссылку Microsoft-Visual-Cpp.url из комплекта.
+Лёгкий установщик — около 90 МБ. Сразу после установки экран подготовки проверит видеокарту и предложит скачать модель и подходящие компоненты. Доступны модели: Turbo Q5 (RU/EN, 574 МБ), Small Q5 (RU/EN, 190 МБ) или Base English (EN, 148 МБ), На экране подготовки нажмите «Скачать и подготовить». Дополнительная CUDA — 675 МБ. Полный [offline-комплект](https://github.com/siniycosmonavt/VibeScribe-Releases/releases/latest/download/VibeScribe-win-Offline.zip) включает все модели и CUDA. Для установки и подготовки обновлений оставьте несколько гигабайт свободного места. На новом компьютере может потребоваться Microsoft Visual C++ Runtime x64; установщик предложит его установку. Для portable-версии используйте ссылку Microsoft-Visual-Cpp.url из комплекта.
 
 При переходе с версии 0.3.0 выйдите из приложения через меню в трее и запустите установщик. Настройки и сохранённая история сохранятся. В дальнейшем используйте раздел «Обновления приложения» в настройках.
 
@@ -24,7 +24,7 @@
 
 Local voice input for Windows x64. Hold the hotkey, speak, then release to insert text. Russian and English speech recognition runs on your computer. The interface supports Russian and English.
 
-Use the **Windows installer** link above, or download the **portable ZIP**. The CPU backend is bundled (installer about 90 MB). Download Turbo Q5 (RU/EN, 574 MB), Small Q5 (RU/EN, 190 MB), or Base English (148 MB) from Settings, then click Use. Optional CUDA is 675 MB. The Offline ZIP includes all models and CUDA. Leave several GB of disk space for installation and update preparation. Microsoft Visual C++ Runtime x64 may be required on a new PC.
+Use the **Windows installer** link above, or download the **portable ZIP**. The CPU backend is bundled (installer about 90 MB). The preparation screen detects graphics hardware after installation and offers the required components. Choose Turbo Q5 (RU/EN, 574 MB), Small Q5 (RU/EN, 190 MB), or Base English (148 MB) then click Download and prepare. Optional CUDA is 675 MB. The Offline ZIP includes all models and CUDA. Leave several GB of disk space for installation and update preparation. Microsoft Visual C++ Runtime x64 may be required on a new PC.
 
 VibeScribe checks for updates and lets you choose when to download and restart. Audio and transcripts are never uploaded. To upgrade from 0.3.0, quit the old app from its tray menu and run the installer; existing settings and saved history are preserved.
 
