@@ -86,6 +86,10 @@ Windows 10/11 x64, микрофон; рекомендуется современ
 
 Dictate messages, notes and work documents in Russian or English. Hold the hotkey, speak, then release to insert the recognized text into the selected field. Whisper runs on your computer. Once a model is downloaded, dictation works offline. No account is required. The interface supports Russian and English, independently of the dictation language.
 
+**[Download the Windows installer](https://github.com/siniycosmonavt/VibeScribe-Releases/releases/latest/download/VibeScribe-win-Setup.exe)**
+
+[Portable ZIP](https://github.com/siniycosmonavt/VibeScribe-Releases/releases/latest/download/VibeScribe-win-Portable.zip) · [Offline bundle](https://github.com/siniycosmonavt/VibeScribe-Releases/releases/latest/download/VibeScribe-win-Offline.zip) · [All versions and release notes](https://github.com/siniycosmonavt/VibeScribe-Releases/releases)
+
 ### Why we keep filler words
 
 **VibeScribe deliberately does not remove filler words or rewrite your sentences after recognition.** Automatic editing is technically possible. Leaving it out is a product principle: VibeScribe is also intended to help you practise clearer speech.
