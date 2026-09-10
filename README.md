@@ -24,7 +24,7 @@ VibeScribe не использует языковую модель для ред
 
 1. Надиктуйте короткую заметку или сообщение в обычном для себя темпе.
 2. Перечитайте текст: где появились ненужные слова, повторы или запутанная формулировка?
-3. Если заметили такую привычку, просто выделите мышкой проблемное предложение и попробуйте надиктовать мысль ещё раз — с осмысленными паузами и более чёткой формулировкой.Выделенный текст заменится на новую версию.
+3. Если заметили такую привычку, попробуйте надиктовать мысль ещё раз — с осмысленными паузами и более чёткой формулировкой.
 
 Так повседневный голосовой ввод становится поводом практиковать ясную речь. Вы сами решаете, что оставить в тексте и что изменить перед отправкой.
 
@@ -35,14 +35,14 @@ VibeScribe не использует языковую модель для ред
 - CPU включён; модели и NVIDIA CUDA скачиваются отдельно из приложения.
 - Встроенная проверка обновлений. Скачивание и перезапуск — по вашему выбору.
 - История диктовок включается по желанию. Аудио и тексты не загружаются в сеть.
-- Настраиваемая горячая клавиша, работа в трее и плавающий индикатор.
+- Настраиваемая горячая клавиша, работа в трее и виджет с выбором цвета и живым предпросмотром.
 - Режимы экономии памяти и быстрого отклика.
 - Если во время распознавания вы сменили окно или поле, автоматическая вставка отменяется; результат можно скопировать из VibeScribe. Программа не нажимает Enter и не отправляет сообщение за вас.
 
 ## Начало работы
 
 1. Установите VibeScribe или распакуйте весь Portable ZIP и запустите `VibeScribe.exe` из корня архива.
-2. В настройках моделей скачайте и включите подходящую модель. Выберите русский или английский язык диктовки — он не зависит от языка интерфейса. Для совместимой видеокарты NVIDIA можно дополнительно загрузить CUDA.
+2. В разделе «Модели и язык» выберите модель и нажмите «Скачать». После скачивания и проверки она включится; уже скачанные модели переключаются через список. Выберите русский или английский язык диктовки — он не зависит от языка интерфейса. Для совместимой видеокарты NVIDIA можно дополнительно загрузить CUDA.
 3. Поставьте курсор в поле ввода. Удерживайте F8 и начинайте говорить, когда появится «Слушаю вас».
 4. Отпустите F8 и дождитесь текста, сохраняя фокус в том же поле. Проверьте результат перед отправкой. Escape отменяет активную запись.
 
@@ -50,7 +50,7 @@ VibeScribe не использует языковую модель для ред
 
 ## Модели и требования
 
-Лёгкий установщик занимает около 90 МБ и содержит движок для работы на процессоре. Модель загружается отдельно один раз:
+Установщик с выбором папки занимает около 152 МБ и содержит движок для работы на процессоре. Модель загружается отдельно один раз:
 
 | Модель | Языки диктовки | Размер загрузки |
 | --- | --- | --- |
@@ -71,6 +71,8 @@ Windows 10/11 x64, микрофон; рекомендуется современ
 При вставке через буфер обмена действуют настройки истории и синхронизации буфера Windows; также доступен режим ввода Unicode без буфера. Сам VibeScribe не отправляет аудио и тексты за пределы компьютера.
 
 ## Обновления и выпуски
+
+При переходе с версии 0.3.0 выйдите из приложения через меню в трее и запустите установщик. Настройки и сохранённая история сохранятся. В дальнейшем используйте раздел «Обновления приложения» в настройках.
 
 Автоматическую проверку обновлений можно отключить. Скачивание и перезапуск требуют вашего действия. При переходе с 0.4 может понадобиться повторная загрузка модели.
 
@@ -100,11 +102,11 @@ If focus changes during recognition, automatic insertion is refused and you can 
 
 ### Downloads and requirements
 
-Windows 10/11 x64 and a microphone are required; a modern CPU and at least 8 GB RAM are recommended. The CPU engine is bundled (installer about 90 MB). Choose Turbo Q5 (RU/EN, 574 MB), Small Q5 (RU/EN, 190 MB), or Base English (EN only, 148 MB). Optional CUDA is 675 MB and needs a compatible NVIDIA driver and enough GPU memory. AMD/Intel graphics use CPU recognition. Downloads support resuming and are checked before use.
+Windows 10/11 x64 and a microphone are required; a modern CPU and at least 8 GB RAM are recommended. The CPU engine is bundled (installer about 152 MB). Choose Turbo Q5 (RU/EN, 574 MB), Small Q5 (RU/EN, 190 MB), or Base English (EN only, 148 MB). Optional CUDA is 675 MB and needs a compatible NVIDIA driver and enough GPU memory. AMD/Intel graphics use CPU recognition. Downloads support resuming and are checked before use.
 
 The Offline ZIP includes all three models and CUDA. Leave at least 5 GB free in the data location for component preparation, plus space for application installation and updates. Microsoft Visual C++ Runtime x64 may be required on a new PC; the installer offers it and the portable bundle includes a Microsoft download link. Python and the .NET SDK are not required.
 
-Choose between memory saving and fast response modes. The floating indicator is customizable. Dictation history is optional and stays local. A recording can last up to 5 minutes; another cannot start during recognition. Password fields and applications with higher privileges are unsupported. Some editors may reject automatic input; use manual copying if needed. Clipboard insertion is subject to Windows clipboard history and sync settings; Unicode input without the clipboard is also available.
+Choose between memory saving and fast response modes. The widget with color selection and live previews is customizable. Dictation history is optional and stays local. A recording can last up to 5 minutes; another cannot start during recognition. Password fields and applications with higher privileges are unsupported. Some editors may reject automatic input; use manual copying if needed. Clipboard insertion is subject to Windows clipboard history and sync settings; Unicode input without the clipboard is also available.
 
 VibeScribe checks for updates and lets you choose when to download and restart. Automatic checks can be disabled. Audio and transcripts are never uploaded. To upgrade from 0.3.0, quit the old app from its tray menu and run the installer; existing settings and saved history are preserved. Model updates are activated only by your choice; the previous model remains available. Upgrading from 0.4 may require a new model download.
 
