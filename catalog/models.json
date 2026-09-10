@@ -1,0 +1,163 @@
+{
+  "Schema": 1,
+  "Generation": 1,
+  "Engine": "whisper-b4938",
+  "Models": [
+    {
+      "Id": "large-v3-turbo-q5_0",
+      "Name": "Whisper Turbo Q5",
+      "Revision": 1,
+      "Bytes": 574041195,
+      "Sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+      "Languages": [
+        "ru",
+        "en"
+      ],
+      "Url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-large-v3-turbo-q5_0.bin"
+    },
+    {
+      "Id": "small-q5_1",
+      "Name": "Whisper Small Q5",
+      "Revision": 1,
+      "Bytes": 190085487,
+      "Sha256": "ae85e4a935d7a567bd102fe55afc16bb595bdb618e11b2fc7591bc08120411bb",
+      "Languages": [
+        "ru",
+        "en"
+      ],
+      "Url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-small-q5_1.bin"
+    },
+    {
+      "Id": "base.en",
+      "Name": "Whisper Base English",
+      "Revision": 1,
+      "Bytes": 147964211,
+      "Sha256": "a03779c86df3323075f5e796cb2ce5029f00ec8869eee3fdfb897afe36c6d002",
+      "Languages": [
+        "en"
+      ],
+      "Url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-base.en.bin"
+    }
+  ],
+  "Cuda": {
+    "Id": "cuda-b4938",
+    "Name": "NVIDIA CUDA 11.8",
+    "Revision": 1,
+    "Bytes": 675044172,
+    "Sha256": "75420bc6b4f18fd478825497de3c3bf3ed38c49fb474c0f4665e290e49290e31",
+    "Languages": [],
+    "Url": "https://github.com/siniycosmonavt/VibeScribe-Releases/releases/download/components-b4938-v1/cuda-b4938-v1.zip",
+    "Files": [
+      {
+        "Path": "Release/cublas64_11.dll",
+        "Bytes": 88668160,
+        "Sha256": "8ca516b96b29c2fba2344909a896bc1cd7951f6cd11fe595a8a3929c02cccbed"
+      },
+      {
+        "Path": "Release/cublasLt64_11.dll",
+        "Bytes": 544070144,
+        "Sha256": "3d06ca4e4893adb7a153ecd23a540e92817c967312b44646d8c3f91b089196e6"
+      },
+      {
+        "Path": "Release/cudart64_110.dll",
+        "Bytes": 526848,
+        "Sha256": "ba5c2fb526c4ee4bb218ceb3fa5e8bfde89ce474f38711fdcce802549bf9fc6f"
+      },
+      {
+        "Path": "Release/ggml-base.dll",
+        "Bytes": 651776,
+        "Sha256": "0e33769c49b280f9ff12e8e73a6a5d56e9675682c633e78b9e75fab64a0bee42"
+      },
+      {
+        "Path": "Release/ggml-cpu-alderlake.dll",
+        "Bytes": 806912,
+        "Sha256": "a0f73842e6e2cd51d65765045fea3adc609ea8da36c21b03df2fb11461be1592"
+      },
+      {
+        "Path": "Release/ggml-cpu-cannonlake.dll",
+        "Bytes": 850944,
+        "Sha256": "c35c4bb1aa2c0ef6d6fb49bfb47dfd9366f45cc9f954917ac8f7f64b396b625b"
+      },
+      {
+        "Path": "Release/ggml-cpu-cascadelake.dll",
+        "Bytes": 848896,
+        "Sha256": "6fcdf3bfabc5327d782db8de31414b4ac9fe539b50750638d9440f395e8a91f1"
+      },
+      {
+        "Path": "Release/ggml-cpu-haswell.dll",
+        "Bytes": 808448,
+        "Sha256": "14daf701a93b339e605c2ac6f1900cad33b2c1bdad2290126ab778c72d825918"
+      },
+      {
+        "Path": "Release/ggml-cpu-icelake.dll",
+        "Bytes": 848896,
+        "Sha256": "68bf09d941cd0db99b7130599e693758b0efce6e82c5d40eb0ae06e9193de4cc"
+      },
+      {
+        "Path": "Release/ggml-cpu-sandybridge.dll",
+        "Bytes": 781312,
+        "Sha256": "b3961bd0605b6faef8732842334812d74ccdc69dad2d879c50616fb67b1a1297"
+      },
+      {
+        "Path": "Release/ggml-cpu-skylakex.dll",
+        "Bytes": 850944,
+        "Sha256": "40f0698e544e37f169c3cdea68de9901e275dc702dc36bfb24f0928894c3a164"
+      },
+      {
+        "Path": "Release/ggml-cpu-sse42.dll",
+        "Bytes": 768000,
+        "Sha256": "fafb93f41b45fcbbc0c4a4919bb6d3b300b927d3a8cfbc7deef01944c1d4118f"
+      },
+      {
+        "Path": "Release/ggml-cpu-x64.dll",
+        "Bytes": 769536,
+        "Sha256": "fbf3b3bd4daaae79e008dee82f076291a83eea59c41671d185697f7253d392fa"
+      },
+      {
+        "Path": "Release/ggml-cuda.dll",
+        "Bytes": 537292800,
+        "Sha256": "56e542ade660412cadc0b238dd039293db710c271e39d3a5b90fc2e9e491aaf4"
+      },
+      {
+        "Path": "Release/ggml.dll",
+        "Bytes": 66560,
+        "Sha256": "422d12ca42b4b344ec9c8bbe34e1ed66e49a29365e080cbdf6eddadc9218c06c"
+      },
+      {
+        "Path": "Release/whisper-cli.exe",
+        "Bytes": 489984,
+        "Sha256": "d90399b25a8c5833c5ad96c5d0d4378c68263832bed898bbf996069edd38f2f5"
+      },
+      {
+        "Path": "Release/whisper-server.exe",
+        "Bytes": 728576,
+        "Sha256": "be3d33d12181460bacd4058fc7f1471f062cf2b1b60df2d94d2b0a689413d801"
+      },
+      {
+        "Path": "Release/whisper.dll",
+        "Bytes": 1310720,
+        "Sha256": "61bb9f4f1beb4bf6199b0405fdc5f9b86251a10ba2e6965b5ab1f5aa43593c40"
+      },
+      {
+        "Path": "licenses/LICENSE",
+        "Bytes": 61498,
+        "Sha256": "b9ee12782ca117b887588d99ae1b8c24deb59105e05417fe28ffbd7a55896dd1"
+      },
+      {
+        "Path": "licenses/cpp-httplib-MIT.txt",
+        "Bytes": 1272,
+        "Sha256": "4fce3ebfcdef0e550876509378af83c38cc2dddf21e0624eaaac0aaea3dc0677"
+      },
+      {
+        "Path": "licenses/nlohmann-json-MIT.txt",
+        "Bytes": 1211,
+        "Sha256": "17cb9da23973510168452cac1eb31b137172976bcbd2e0dedf3c9a7c37f1f4c6"
+      },
+      {
+        "Path": "licenses/whisper-cpp-MIT.txt",
+        "Bytes": 1078,
+        "Sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d"
+      }
+    ]
+  }
+}
